@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Van Field Guide NPU probe" android:allowBackup="false">
+        <uses-native-library android:name="libOpenCL.so" android:required="false" />
+        <uses-native-library android:name="libvndksupport.so" android:required="false" />
+    </application>
+    <instrumentation android:name=".NpuProbeRunner" android:targetPackage="com.vanfieldguide.npuprobe" android:label="Isolated NPU experiment" />
+</manifest>

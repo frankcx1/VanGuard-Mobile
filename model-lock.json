@@ -1,0 +1,31 @@
+{
+  "repository": "litert-community/embeddinggemma-2-text-vision-440m-litert-lm",
+  "revision": "e301f74d5551b0c2641bd5cb4652a76239d5c5f8",
+  "file": "embeddinggemma-2-text-vision-440m.litertlm",
+  "bytes": 387710976,
+  "sha256": "92dcbea108899e5d6e30d919b0744f90d9967e80c67a4ab5503ac16d54f62eb0",
+  "runtime": "com.google.ai.edge.litertlm:litertlm-android:0.18.0",
+  "query_prefix_candidate": "task: search query | text: ",
+  "prefix_validation": "Runtime-guide convention used in both CPU/GPU and NPU indexes. Held-out ranking and alternate-prefix comparison remain pending.",
+  "device_validation": "Pixel 10 Pro XL API 37: native CPU/GPU and NPU text/image inference passed. Version 0.4 uses NPU first with isolated fingerprints and tested automatic CPU/GPU fallback. See NPU-APP-TEST-REPORT.md. Owner-reported earlier offline tests do not establish the new build's disconnected readiness.",
+  "preferred_backend": "NPU on Tensor G5; CPU/GPU fallback",
+  "npu": {
+    "repository": "litert-community/embeddinggemma-2-text-vision-440m-litert-lm",
+    "revision": "e301f74d5551b0c2641bd5cb4652a76239d5c5f8",
+    "file": "embeddinggemma-2-text-vision-440m_Google_Tensor_G5.litertlm",
+    "bytes": 559418036,
+    "sha256": "96cdbae7b3dd6fa0f829fef2d0dd5bafc0179890d9bafbfe972db852e818d758",
+    "dispatch_library": "com.google.ai.edge.litert:litert-npu-runtime-google-tensor:2.3.0",
+    "compiler_plugin": "Excluded: AOT model; no on-device compilation"
+  },
+  "index_candidate": {
+    "dimensions": 768,
+    "backend": "CPU",
+    "max_input_length": 1024,
+    "chunk_characters": 1100,
+    "overlap_characters": 150,
+    "document_prefix": "task: search result | text: ",
+    "query_prefix": "task: search query | text: ",
+    "validation": "Runtime-guide candidate; model-card discrepancy and development ranking comparison pending."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "litert-community/embeddinggemma-2-text-vision-440m-litert-lm",
+  "revision": "e301f74d5551b0c2641bd5cb4652a76239d5c5f8",
+  "file": "embeddinggemma-2-text-vision-440m_Google_Tensor_G5.litertlm",
+  "bytes": 559418036,
+  "sha256": "96cdbae7b3dd6fa0f829fef2d0dd5bafc0179890d9bafbfe972db852e818d758",
+  "soc": "Tensor G5",
+  "runtime": "com.google.ai.edge.litertlm:litertlm-android:0.18.0",
+  "dispatch_library": "com.google.ai.edge.litert:litert-npu-runtime-google-tensor:2.3.0",
+  "compiler_plugin": "Excluded; the Tensor G5 artifact is already compiled",
+  "deployment": "Separate probe package only; field-guide app still uses its existing CPU/GPU model and indexes"
+}

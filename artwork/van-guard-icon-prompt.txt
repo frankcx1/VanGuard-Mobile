@@ -1,0 +1,7 @@
+Tool: built-in image_gen (not the CLI/API fallback).
+Final artwork: app/src/main/res/drawable-nodpi/van_guard_art.png
+Android adaptive icon: app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+Monochrome themed icon: code-native van silhouette in ic_van_monochrome.xml.
+
+Prompt:
+Use case: logo-brand. Asset type: Android launcher icon artwork for a personal vanlife app named Van Guard. Create one polished square icon illustration, no lettering. A recognizable cream-white high-roof camper van in a bold three-quarter front view, dark windshield and chunky wheels, with a minimal mountain ridge and small copper sun behind it. Refined outdoor equipment badge aesthetic, clean broad shapes, extremely legible at tiny phone icon sizes, subtle depth but no photorealistic tiny detail. Forest green background fills the entire square edge-to-edge; cream van and restrained warm copper accent. Keep ALL meaningful artwork centered inside the middle 60 percent of the square so a circular Android adaptive-icon crop will not cut it off. Generous uninterrupted forest-green outer margin. No pre-rounded square corners, no border, no typography, no letters, no trademark badge, no watermark. One finished icon, not a presentation sheet or device mockup.

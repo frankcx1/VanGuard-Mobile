@@ -1,0 +1,27 @@
+.gradle/
+.kotlin/
+.tools/
+**/build/
+local.properties
+.idea/
+*.iml
+local-materials/*
+!local-materials/.gitkeep
+models/
+/Sprinter/
+# Owner material may be dropped directly in the base folder.
+/*.pdf
+/*.PDF
+/*.jpg
+/*.jpeg
+/*.png
+/*.heic
+/*.webp
+/*.zip
+/*.litertlm
+/*.docx
+/*.xlsx
+/*.txt
+# Filming notes and Office lock files stay local.
+output/
+~$*
